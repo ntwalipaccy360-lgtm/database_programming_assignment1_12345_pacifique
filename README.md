@@ -72,3 +72,14 @@ This project includes several SQL Window Function techniques for data analysis:
 ### 4. Distribution Functions
 - NTILE(): Divides students into performance groups.
 - CUME_DIST(): Shows cumulative distribution of marks.
+
+## Analysis and Findings
+
+### Descriptive Analysis
+The data shows student enrollment records, course participation, and marks obtained across different courses. It helps summarize overall academic performance.
+
+### Diagnostic Analysis
+Differences in student performance are observed due to variations in marks across different courses and student engagement levels.
+
+### Prescriptive Analysis
+The system suggests that students with low performance should receive academic support, while high-performing students can be recommended for advanced courses or opportunities.
