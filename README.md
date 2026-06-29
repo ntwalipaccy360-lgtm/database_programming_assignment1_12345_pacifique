@@ -21,3 +21,13 @@ The system consists of three related tables:
 - CourseID (Foreign Key)
 - Semester
 - Marks
+## ER Diagram
+
+The system contains the following relationships:
+
+- One Student can have many Enrollments
+- One Course can have many Enrollments
+- Each Enrollment links one Student to one Course
+
+### Relationships:
+Students (1) —— (M) Enrollments (M) —— (1) Courses
