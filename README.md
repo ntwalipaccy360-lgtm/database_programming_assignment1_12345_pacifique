@@ -49,3 +49,26 @@ Calculates total marks, average marks, and number of courses per student.
 
 ### 5. JOIN CTE
 Combines Students, Courses, and Enrollments to generate a full academic performance report.
+
+## Window Functions Implementations
+
+This project includes several SQL Window Function techniques for data analysis:
+
+### 1. Ranking Functions
+- ROW_NUMBER(): Assigns a unique sequential number to each row.
+- RANK(): Assigns rank with gaps when there are ties.
+- DENSE_RANK(): Assigns rank without gaps for tied values.
+
+### 2. Aggregate Window Functions
+- SUM() OVER(): Calculates total marks across all students.
+- AVG() OVER(): Computes average marks across all students.
+- MIN() OVER(): Finds lowest mark in the dataset.
+- MAX() OVER(): Finds highest mark in the dataset.
+
+### 3. Navigation Functions
+- LAG(): Retrieves previous row value for comparison.
+- LEAD(): Retrieves next row value for comparison.
+
+### 4. Distribution Functions
+- NTILE(): Divides students into performance groups.
+- CUME_DIST(): Shows cumulative distribution of marks.
