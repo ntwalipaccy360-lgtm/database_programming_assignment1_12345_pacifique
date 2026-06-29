@@ -31,3 +31,21 @@ The system contains the following relationships:
 
 ### Relationships:
 Students (1) —— (M) Enrollments (M) —— (1) Courses
+## CTE Implementations
+
+This project includes five Common Table Expression (CTE) implementations:
+
+### 1. Simple CTE
+Used to retrieve basic student or enrollment data in a structured way.
+
+### 2. Multiple CTEs
+Combines multiple temporary result sets to perform complex queries in steps.
+
+### 3. Recursive CTE
+Used to simulate step-by-step processing of student enrollments.
+
+### 4. Aggregation CTE
+Calculates total marks, average marks, and number of courses per student.
+
+### 5. JOIN CTE
+Combines Students, Courses, and Enrollments to generate a full academic performance report.
