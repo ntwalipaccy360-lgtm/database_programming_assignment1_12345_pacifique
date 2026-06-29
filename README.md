@@ -83,3 +83,12 @@ Differences in student performance are observed due to variations in marks acros
 
 ### Prescriptive Analysis
 The system suggests that students with low performance should receive academic support, while high-performing students can be recommended for advanced courses or opportunities.
+## References
+
+- Oracle SQL Documentation: https://docs.oracle.com
+- Lecture Notes: Database Programming (DPR400210)
+- W3Schools SQL Tutorials: https://www.w3schools.com/sql/
+
+## Academic Integrity Statement
+
+This project is my original work. All SQL queries, database design, and documentation were created independently in accordance with university academic integrity policies.
